@@ -37,6 +37,11 @@ android {
     buildFeatures {
         compose = true
     }
+    composeOptions {
+        // Find the correct version compatible with your Kotlin version
+        // Check the compatibility map: https://developer.android.com/jetpack/androidx/releases/compose-kotlin
+        kotlinCompilerExtensionVersion = "1.5.1" // Example version - REPLACE with the correct one!
+    }
 }
 
 dependencies {
